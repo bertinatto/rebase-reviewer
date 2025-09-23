@@ -1,0 +1,9 @@
+[project]
+name = "rebase-reviewer"
+version = "0.1.0"
+description = "Review and compare commits of two Git branches using an LLM"
+dependencies = [
+    "google-generativeai>=0.8.5",
+    "PyGithub",
+    "questionary>=2.1.1",
+]
